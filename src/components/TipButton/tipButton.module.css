@@ -1,0 +1,27 @@
+.tipButton {
+    width: 115px;
+
+    padding: 7px 0;
+    margin-bottom: 15px;
+
+    background-color: var(--very-dark-cyan);
+    color: var(--white);
+
+    font-family: 'Space Mono';
+    font-weight: bold;
+    font-size: 20px;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.tipButton:hover {
+    background-color: #9de8df;
+    color: var(--very-dark-cyan);
+}
+
+.activeTipButton {
+    background-color: #26c2ae;
+}

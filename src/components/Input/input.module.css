@@ -1,0 +1,58 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 8px;
+}
+
+.error {
+    color: #e39a8b;
+}
+
+.inputWrapper{
+    position: relative;
+}
+
+.inputWrapper .inputLogoWrapper {
+    position: absolute;
+    left: 15px;
+    top: 0;
+
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input {
+    width: 100%;
+
+    padding: 4px 10px;
+    box-sizing: border-box;
+
+    text-align: right;
+    font-family: 'Space Mono';
+    font-weight: bold;
+    font-size: 22px;
+
+    color: var(--very-dark-cyan);
+    background-color: var(--very-light-grayish-cyan);
+
+    border: 2px solid rgba(0,0,0,0);
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none !important;
+    border: 2px solid var(--strong-cyan)!important;
+}
+
+.errorBorder {
+    border: "2px solid #e39a8b"
+}
