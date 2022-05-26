@@ -112,3 +112,37 @@
     background-color: #0d787e;
     cursor: not-allowed;
 }
+
+@media screen and (max-width: 919px) {
+
+    .logo-wrapper {
+        margin-top: 30px;
+    }
+
+    .board {
+        width: 375px;
+        height: auto;
+
+        flex-direction: column;
+
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .left-part {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .tips {
+        margin: 25px 0;
+    }
+
+    .customTip {
+        width: 48%;
+    }
+
+    .right-part {
+        max-width: 100%;
+    }
+}

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Input, TipButton, TipBlock } from "./components";
-import { cutNumber } from "./helper";
 
 import { Dollar } from "./icons";
 
@@ -86,10 +85,10 @@ function App() {
         <div className="right-part">
           <div className="tip-blocks">
             <TipBlock
-              value={cutNumber(tipPerPerson)}
+              value={tipPerPerson.toFixed(2)}
               numeratorText={"Tip Amount"}
             />
-            <TipBlock value={cutNumber(totalAmount)} numeratorText={"Total"} />
+            <TipBlock value={totalAmount.toFixed(2)} numeratorText={"Total"} />
           </div>
           <div className="reset-wrapper">
             <button

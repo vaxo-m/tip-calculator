@@ -25,3 +25,9 @@
 .activeTipButton {
     background-color: #26c2ae;
 }
+
+@media screen and (max-width: 919px) {
+    .tipButton {
+        width: 48%;
+    }
+}
